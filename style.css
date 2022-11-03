@@ -72,7 +72,7 @@
     background-color: rgb(74, 156, 204);
     height: 80px;
     width: 900px;
-    
+    position: fixed;
 }
 .footer .step{
     float: left;
