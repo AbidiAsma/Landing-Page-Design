@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*start header*/
+.header{
+    width: 900px;
+    height: 20px;
+    margin: 20px;
+    padding: 10px;
+    line-height: 5px;
+
+}
+.header h1{
+    float: left;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.header h1 span{
+    color: rgb(74, 156, 204);
+}
+.header ul a{
+    float: right;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    padding: 5px;
+
+}
+/*end header*/
+/*start menu*/
+.menu{
+    width: 900px;
+    height: 350px;
+    margin: 20px;
+}
+.menu .design{
+    float: left;
+    padding: 10px;
+}
+.menu .design p{
+    color: rgb(74, 156, 204);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.menu .design h1{
+    text-transform: capitalize;
+    font-size: 50px;
+}
+#sign-up{
+    text-decoration: none;
+    background-color: rgb(74, 156, 204);
+    color: white;
+    padding: 10px;
+    line-height: 50px;
+
+}
+#show-more{
+    text-decoration: none;
+    color: rgb(74, 156, 204);
+    line-height: 50px;
+}
+.menu .design .image img{
+    float: right;
+    width: 850px;
+    margin-top: 50px;
+}
+/*end menu*/
+/*start footer*/
+.footer{
+    background-color: rgb(74, 156, 204);
+    height: 80px;
+    width: 900px;
+    
+}
+.footer .step{
+    float: left;
+    display: inline-flex;
+    margin: 20px;
+}
+.footer .step .step-1{
+    background-color: white;
+}
+.footer .icon{
+    float: right;
+    color: white;
+    line-height: 50px;
+}
+.footer .icon .fa-sharp:hover{
+    background-color: rgb(15, 15, 15);
+}
+/*end footer*/
